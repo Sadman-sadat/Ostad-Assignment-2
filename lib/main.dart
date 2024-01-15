@@ -22,6 +22,10 @@ class MyApp extends StatelessWidget {
             elevation: 0),
         scaffoldBackgroundColor: Colors.grey[100],
         cardTheme: const CardTheme(color: Colors.white, elevation: 0),
+        snackBarTheme: const SnackBarThemeData(
+          backgroundColor: Colors.green,
+          behavior: SnackBarBehavior.floating,
+          elevation: 0,)
       ),
       home: const HomeScreen(),
     );
