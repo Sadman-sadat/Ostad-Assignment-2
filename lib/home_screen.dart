@@ -76,6 +76,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       const SnackBar(
                         content: Text('Congratulations! Your order has been placed.'),
                         backgroundColor: Colors.green,
+                        behavior: SnackBarBehavior.floating,
+                        margin: EdgeInsets.only(bottom: 100),
+                        elevation: 0,
                       ),
                     );
                   },
