@@ -1,6 +1,6 @@
 # assignment
 
-A new Flutter project.
+Ostad Module 10 Assignment
 
 ## Getting Started
 
